@@ -26,7 +26,8 @@ First, clone this repository to your local machine:
 Before running the visualization scripts, you need to download the desired map in the form of a .graphml file. You can do this using the download_map.py script.
 
 Run the following command to download the map of your chosen location:
-``` python download_map.py ```
+``` python download_map.py
+```
 
 
 This will download the map and save it as beersheba.graphml in the project directory by default. If you need a different location, modify the script to download the specific area you need.
