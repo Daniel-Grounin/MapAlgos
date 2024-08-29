@@ -36,13 +36,14 @@ You have two main options for visualizing the paths:
 3.1 Visualize the Shortest Path (Final Form)
 To see the shortest path between two addresses immediately, run:
 
-```python main.py```
+```python dijkstra_path.py```
+
 
 This will prompt you to enter the source and destination addresses, and then it will calculate and display the shortest path on the map.
 
 3.2 Observe Dijkstra's Algorithm in Action
 To watch how Dijkstra's algorithm works step by step, run:
 
-```python dijkstra_path.py```
+```python main.py```
 
 This script will prompt you to enter the source and destination addresses and then visualize how the algorithm explores different paths until it finds the shortest one.
