@@ -21,13 +21,12 @@ This project provides a visualization of Dijkstra's algorithm on a map of a city
 
 First, clone this repository to your local machine:
 
-
 ### 2. Download Your Desired Map
 Before running the visualization scripts, you need to download the desired map in the form of a .graphml file. You can do this using the download_map.py script.
 
 Run the following command to download the map of your chosen location:
-``` python download_map.py
 
+```python download_map.py```
 
 This will download the map and save it as beersheba.graphml in the project directory by default. If you need a different location, modify the script to download the specific area you need.
 
@@ -37,15 +36,13 @@ You have two main options for visualizing the paths:
 3.1 Visualize the Shortest Path (Final Form)
 To see the shortest path between two addresses immediately, run:
 
-bash
-Copy code
-python main.py
+```python main.py```
+
 This will prompt you to enter the source and destination addresses, and then it will calculate and display the shortest path on the map.
 
 3.2 Observe Dijkstra's Algorithm in Action
 To watch how Dijkstra's algorithm works step by step, run:
 
-bash
-Copy code
-python dijkstra_path.py
+```python dijkstra_path.py```
+
 This script will prompt you to enter the source and destination addresses and then visualize how the algorithm explores different paths until it finds the shortest one.
